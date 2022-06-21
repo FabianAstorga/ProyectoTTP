@@ -1,0 +1,37 @@
+<!--by mauri-->
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Segunda pagina web</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <script src="loginAdmin.js"></script>
+</head>
+
+<body>
+    <div class="superior">
+      <h1>Login Administración</h1>
+    </div>
+    <ul class="button">
+        <li><a class="active" href="../administracion.html"><span>Administración</span></a></li>
+        <li><a href="../catalogo.html"><span>Catálogo</span></a></li>
+        <li><a href="../ejercicios.html"><span>Ejercicios</span></a></li>
+        <li><a href="../ayuda.html"><span>Ayuda</span></a></li>
+    </ul>
+
+    <div >
+        <h2>Login Administración</h2>
+        <p>Ingrese sus datos</p>
+        
+        <label>Nombre de usuario : </label>
+        <input type="text" placeholder="Ingrese nombre usuario" id="adm_username" required>
+        <p></p>
+        <label>Contraseña : </label>
+        <input type="password" placeholder="Ingrese contraseña" id="adm_password" required>
+        <p></p>
+        <button type="submit" onClick="loginAdmin()">Login</button>
+        <p></p>
+
+        <button onClick="location.href='../index.html'" type="button">Volver al inicio</button>
+    </div>
+</body>
+</html>
