@@ -4,6 +4,7 @@
 <head>
     <title>Segunda pagina web</title>
     <link rel="stylesheet" href="../style.css"/>
+    <script src="loginAdmin.js"></script>
 </head>
 
 <body>
@@ -19,16 +20,15 @@
 
     <div >
         <h2>Login Administración</h2>
-        <!-- <h3>Área de administracion</h3> -->
         <p>Ingrese sus datos</p>
         
         <label>Nombre de usuario : </label>
-        <input type="text" placeholder="Enter Username" name="username" required>
+        <input type="text" placeholder="Ingrese nombre usuario" id="adm_username" required>
         <p></p>
         <label>Contraseña : </label>
-        <input type="password" placeholder="Enter Password" name="password" required>
+        <input type="password" placeholder="Ingrese contraseña" id="adm_password" required>
         <p></p>
-        <button type="submit">Login</button>
+        <button type="submit" onClick="loginAdmin()">Login</button>
         <p></p>
 
         <button onClick="location.href='../index.html'" type="button">Volver al inicio</button>
