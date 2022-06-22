@@ -7,7 +7,7 @@
     background: #f59e1d;
     color: white;
     font-size: 18px;
-    height: 100px; 
+    height: 90px; 
     border-color: black; 
     border-width: 1px;
     border-style: solid; 
@@ -26,64 +26,68 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    min-width: 22px ;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
     overflow: auto;
 }
 
-li a {
+li {
     display: block;
+    background-color: #f59e1d;
+    border: none;
     color: black;
-    background-color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-    height: 70px;
     text-align: center;
-
-    cursor: pointer;
+    font-size: 15px;
+    padding: 25px;
+    width: 100px;
     transition: all 0.5s;
-    width: 120px;
+    cursor: pointer;
 }
 
 li span {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    transition: 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
 li span:after {
-    content:'\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
 li:hover span {
-    padding-right: 25px;
+  padding-right: 25px;
 }
-  
+
 li:hover span:after {
-    opacity: 1;
-    right: 0;
+  opacity: 1;
+  right: 0;
 }
 
 li a.active {
-    background-color: #e2b167;
+    background-color: #f59e1d;
     color: white;
 }
 
 div {
-    
     padding:1px 170px;
     height:1000px;
 }
   
 li a:hover:not(.active) {
     background-color: #f59e1d;
-    color: white;
+}
+
+table {
+    padding: 10px 170px;
+}
+
+td {
+  padding: 10px 20px 35px;
 }
