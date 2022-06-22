@@ -20,7 +20,18 @@
 .Inicio{
     background-image: url("intro.png");
     background-size: contain;
-    
+
+
+}
+.texto{
+  margin-left: 300px;
+  
+}
+.maguito{
+  width: 600px;
+  height: 600px;
+  margin-left: 300px;
+
 }
 body {
     margin: 0;
