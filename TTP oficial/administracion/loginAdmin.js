@@ -1,7 +1,7 @@
 function loginAdmin() 
 {
     // Codigo para validar los datos de un administrador
-    var N_ADMIN = "admin", P_ADMIN = "admin123" // Cambiar en el futuro porfa xD
+    var N_ADMIN = "admin", P_ADMIN = "admin123" // Cambiar en el futuro porfa xDDDD esta wea es super insegura
     var adm_username, adm_password
     
     adm_username = document.getElementById("adm_username").value
