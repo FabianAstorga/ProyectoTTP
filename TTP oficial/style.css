@@ -4,7 +4,7 @@
     position: sticky;
     top: 0px;
     text-align: center;
-    background: #f59e1d;
+    background: #381f74;
     color: white;
     font-size: 18px;
     height: 90px; 
@@ -19,9 +19,11 @@
 }
 .Inicio{
     background-image: url("intro.png");
-    background-size: contain;
-
-
+    background-size: 100%;
+    
+    height: auto;
+    background-repeat: no-repeat;
+    
 }
 .texto{
   margin-left: 300px;
@@ -49,7 +51,7 @@ ul {
 
 li {
     display: block;
-    background-color: #f59e1d;
+    background-color: #381f74;
     border: none;
     color: black;
     text-align: center;
