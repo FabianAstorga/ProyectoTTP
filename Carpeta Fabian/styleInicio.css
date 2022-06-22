@@ -18,9 +18,27 @@
     border-right: none;
 }
 
+.imagen {
+    background-image: url("intro.png");
+    background-size: contain;
+
+}
+.texto {
+    padding: 1px;
+    
+    position: relative;
+    left: 150px;
+    right: 500px;
+    top: 0px;
+    
+    
+    
+
+}
+
 body {
     margin: 0;
-    background-image: url("348162.png");
+    
 }
   
 ul {
