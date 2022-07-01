@@ -53,7 +53,6 @@ li {
     display: block;
     background-color: #381f74;
     border: none;
-    color: black;
     text-align: center;
     font-size: 15px;
     padding: 25px;
@@ -88,7 +87,7 @@ li:hover span:after {
 }
 
 li a.active {
-    background-color: #f59e1d;
+    background-color: #381f74;
     color: white;
 }
 
@@ -98,7 +97,7 @@ div {
 }
   
 li a:hover:not(.active) {
-    background-color: #f59e1d;
+    background-color: #381f74;
 }
 
 table {
@@ -107,4 +106,8 @@ table {
 
 td {
   padding: 10px 20px 35px;
+}
+
+.barraLateral {
+  color:black
 }
