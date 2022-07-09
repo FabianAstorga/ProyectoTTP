@@ -12,7 +12,7 @@
     text-align: center;
     background: #381f74;
     color: white;
-    font-size: 18px;
+    font-size: 28px;
     height: 90px; 
     border-color: black; 
     border-width: 1px;
@@ -61,7 +61,7 @@ li {
     background-color: #381f74;
     border: none;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     padding: 25px;
     width: 100px;
     transition: all 0.5s;
