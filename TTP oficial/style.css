@@ -1,10 +1,14 @@
 
 @font-face{
-  font-family: FuenteMagica ;
+  font-family: FuenteTitular ;
   src: url(FuentesTexto/Rose_Knight.ttf);
 }
+@font-face{
+  font-family: FuenteEscritura ;
+  src: url(FuentesTexto/lumoslatino.ttf);
+}
 .superior {
-    font-family: FuenteMagica;
+    font-family: FuenteTitular;
     padding: 1px;
     overflow: auto;
     position: sticky;
@@ -46,7 +50,7 @@ body {
 }
   
 ul {
-    font-family: FuenteMagica;
+    font-family: FuenteTitular;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -115,6 +119,7 @@ table {
 td {
   padding: 10px 20px 35px;
   font-size: 26px;
+  font-family: FuenteEscritura;
 }
 
 .barraLateral {
