@@ -1,4 +1,10 @@
+
+@font-face{
+  font-family: FuenteMagica ;
+  src: url(FuentesTexto/Rose_Knight.ttf);
+}
 .superior {
+    font-family: FuenteMagica;
     padding: 1px;
     overflow: auto;
     position: sticky;
@@ -6,7 +12,7 @@
     text-align: center;
     background: #381f74;
     color: white;
-    font-size: 18px;
+    font-size: 28px;
     height: 90px; 
     border-color: black; 
     border-width: 1px;
@@ -40,6 +46,7 @@ body {
 }
   
 ul {
+    font-family: FuenteMagica;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,7 +61,7 @@ li {
     background-color: #381f74;
     border: none;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     padding: 25px;
     width: 100px;
     transition: all 0.5s;
@@ -94,6 +101,7 @@ li a.active {
 div {
     padding:1px 170px;
     height:1000px;
+    
 }
   
 li a:hover:not(.active) {
@@ -106,6 +114,7 @@ table {
 
 td {
   padding: 10px 20px 35px;
+  font-size: 26px;
 }
 
 .barraLateral {
