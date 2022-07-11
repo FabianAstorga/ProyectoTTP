@@ -1,4 +1,3 @@
-
 @font-face{
   font-family: FuenteTitular ;
   src: url(FuentesTexto/Rose_Knight.ttf);
@@ -12,11 +11,12 @@
     padding: 1px;
     position: sticky;
     top: 0px;
+    bottom: 100px;
     text-align: center;
     background: #381f74;
     color: white;
     font-size: 28px;
-    height: 90px; 
+    height: 90px;
     border-color: black; 
     border-width: 1px;
     border-style: solid; 
@@ -26,6 +26,7 @@
     border-left: none;
     border-right: none;
 }
+
 .Inicio{
     background-image: url("intro.png");
     background-size: 100%;
@@ -113,7 +114,7 @@ li a:hover:not(.active) {
 
 table {
     padding: 10px 170px;
-    padding-bottom: 1px;
+    padding-bottom: 1px;    
 }
 
 td {
@@ -127,6 +128,6 @@ td {
   color:rgb(128, 128, 128)
 }
 *{
-  overflow:hidden;
+  overflow:visible;
 
 }
