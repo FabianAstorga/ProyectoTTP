@@ -10,7 +10,6 @@
 .superior {
     font-family: FuenteTitular;
     padding: 1px;
-    overflow: auto;
     position: sticky;
     top: 0px;
     text-align: center;
@@ -114,6 +113,7 @@ li a:hover:not(.active) {
 
 table {
     padding: 10px 170px;
+    padding-bottom: 1px;
 }
 
 td {
@@ -125,4 +125,8 @@ td {
 
 .barraLateral {
   color:rgb(128, 128, 128)
+}
+*{
+  overflow:hidden;
+
 }
