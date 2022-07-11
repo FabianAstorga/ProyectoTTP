@@ -10,7 +10,9 @@
 .superior {
     font-family: FuenteTitular;
     padding: 1px;
+    overflow: auto;
     position: sticky;
+    top: 0px;
     text-align: center;
     background: #381f74;
     color: white;
@@ -24,7 +26,6 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    padding-bottom: 15px;
 }
 .Inicio{
     background-image: url("intro.png");
@@ -66,7 +67,7 @@ li {
     text-align: center;
     font-size: 17px;
     padding: 25px;
-    width: 100px;
+    width: 130px;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -102,8 +103,8 @@ li a.active {
 }
 
 div {
-    padding:1px 170px;
-    height:1000px;
+    padding:1px 200px;
+    height: 1000px;
     
 }
   
@@ -113,20 +114,15 @@ li a:hover:not(.active) {
 
 table {
     padding: 10px 170px;
-    padding-left: 300px;
 }
 
 td {
   padding: 10px 20px 35px;
   font-size: 26px;
   font-family: FuenteEscritura;
-  font-weight: 700px;
-  padding-top: 0px;
+  font-weight: 700;
 }
 
 .barraLateral {
   color:rgb(128, 128, 128)
-}
-*{
-  overflow:hidden;
 }
